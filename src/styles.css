@@ -1,0 +1,90 @@
+.App {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+body {
+  background: #222;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.container {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 400px;
+  height: 400px;
+  background: #333;
+  border: 5px solid #333;
+  border-radius: 10px;
+  overflow-y: scroll;
+  box-shadow: 5px 5px 10px #000, -4px -4px 4px #555, inset 5px 5px 5px #000,
+    inset -4px -4px 4px #555;
+}
+.container::-webkit-scrollbar {
+  width: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.inpBut {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+
+input {
+  width: 250px;
+  height: 20px;
+  font-size: 14px;
+  outline: none;
+  border: 1px solid #aaa;
+  background: #777;
+  border-radius: 5px;
+  color: white;
+}
+
+.adicionar {
+  width: 100px;
+  height: 25px;
+  background: rgb(170, 255, 170);
+  border: 1px solid rgb(111, 255, 111);
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.adicionar:hover {
+  background: rgb(100, 255, 100);
+  cursor: pointer;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 0 20px;
+  padding: 5px 0 3px 2px;
+  border-bottom: 1px solid #888;
+}
+
+.deletar {
+  background: rgb(255, 99, 99);
+  border: 1px solid rgb(255, 68, 68);
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 4px;
+}
+.deletar:hover {
+  background: rgb(255, 35, 35);
+  cursor: pointer;
+}
